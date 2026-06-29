@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#4f46e5,#8b5cf6);
+}
+
+.login-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.login-box{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+}
+
+.login-box h2{
+    margin-bottom:10px;
+}
+
+.login-box p{
+    margin-bottom:20px;
+    color:#666;
+}
+
+.login-box input{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    outline:none;
+}
+
+.login-box button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.login-box button:hover{
+    transform:translateY(-2px);
+}
+
+.signup{
+    margin-top:15px;
+    font-size:14px;
+}
+
+.signup a{
+    color:#4f46e5;
+    text-decoration:none;
+}
